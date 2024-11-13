@@ -1,0 +1,467 @@
+{
+    "id": 1,
+    "carName": "RaceCar01",
+    "canIdConfigList": [
+      {
+        "canId": "1536",
+        "sensorConfigList": [
+          {
+            "unit": "RPM",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 3,
+            "byteOffset": 0,
+            "multiplier": 1,
+            "sensorName": "RPM",
+            "maximumValue": 16000,
+            "minimumValue": 0
+          },
+          {
+            "unit": "%",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 2,
+            "multiplier": 0.5,
+            "sensorName": "TPS",
+            "maximumValue": 100,
+            "minimumValue": 0
+          },
+          {
+            "unit": "C",
+            "offset": 0,
+            "signed": true,
+            "byteWidth": 1,
+            "byteOffset": 3,
+            "multiplier": 1,
+            "sensorName": "IAT",
+            "maximumValue": 127,
+            "minimumValue": -40
+          },
+          {
+            "unit": "kPa",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 2,
+            "byteOffset": 4,
+            "multiplier": 1,
+            "sensorName": "MAP",
+            "maximumValue": 600,
+            "minimumValue": 0
+          },
+          {
+            "unit": "ms",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 2,
+            "byteOffset": 6,
+            "multiplier": 0.016129,
+            "sensorName": "INJPW",
+            "maximumValue": 50,
+            "minimumValue": 0
+          }
+        ]
+      },
+      {
+        "canId": "1538",
+        "sensorConfigList": [
+          {
+            "unit": "km/h",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 2,
+            "byteOffset": 0,
+            "multiplier": 1,
+            "sensorName": "VSPD",
+            "maximumValue": 400,
+            "minimumValue": 0
+          },
+          {
+            "unit": "C",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 3,
+            "multiplier": 1,
+            "sensorName": "OILT",
+            "maximumValue": 160,
+            "minimumValue": 0
+          },
+          {
+            "unit": "Bar",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 4,
+            "multiplier": 0.0625,
+            "sensorName": "OILP",
+            "maximumValue": 12,
+            "minimumValue": 0
+          },
+          {
+            "unit": "C",
+            "offset": 0,
+            "signed": true,
+            "byteWidth": 2,
+            "byteOffset": 6,
+            "multiplier": 1,
+            "sensorName": "CLT",
+            "maximumValue": 250,
+            "minimumValue": -40
+          }
+        ]
+      },
+      {
+        "canId": "1539",
+        "sensorConfigList": [
+          {
+            "unit": "Deg",
+            "offset": 0,
+            "signed": true,
+            "byteWidth": 1,
+            "byteOffset": 0,
+            "multiplier": 0.5,
+            "sensorName": "IGNANG",
+            "maximumValue": 60,
+            "minimumValue": -60
+          },
+          {
+            "unit": "ms",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 1,
+            "multiplier": 0.05,
+            "sensorName": "DWELL",
+            "maximumValue": 10,
+            "minimumValue": 0
+          },
+          {
+            "unit": "Lambda",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 2,
+            "multiplier": 0.0078125,
+            "sensorName": "LAMBDA",
+            "maximumValue": 2,
+            "minimumValue": 0
+          },
+          {
+            "unit": "%",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 3,
+            "multiplier": 0.5,
+            "sensorName": "LAMCORR",
+            "maximumValue": 125,
+            "minimumValue": 75
+          },
+          {
+            "unit": "C",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 2,
+            "byteOffset": 4,
+            "multiplier": 1,
+            "sensorName": "EGT1",
+            "maximumValue": 1100,
+            "minimumValue": 0
+          },
+          {
+            "unit": "C",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 2,
+            "byteOffset": 6,
+            "multiplier": 1,
+            "sensorName": "EGT2",
+            "maximumValue": 1100,
+            "minimumValue": 0
+          }
+        ]
+      },
+      {
+        "canId": "1540",
+        "sensorConfigList": [
+          {
+            "unit": "No units",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 0,
+            "multiplier": 1,
+            "sensorName": "GEAR",
+            "maximumValue": 7,
+            "minimumValue": 0
+          },
+          {
+            "unit": "C",
+            "offset": 0,
+            "signed": true,
+            "byteWidth": 1,
+            "byteOffset": 1,
+            "multiplier": 1,
+            "sensorName": "ECUTEMP",
+            "maximumValue": 120,
+            "minimumValue": -40
+          },
+          {
+            "unit": "V",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 2,
+            "byteOffset": 2,
+            "multiplier": 0.027,
+            "sensorName": "BATT",
+            "maximumValue": 20,
+            "minimumValue": 0
+          }
+        ]
+      },
+      {
+        "canId": "1541",
+        "sensorConfigList": [
+          {
+            "unit": "%",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 0,
+            "multiplier": 0.5,
+            "sensorName": "DBW POS",
+            "maximumValue": 100,
+            "minimumValue": 0
+          },
+          {
+            "unit": "%",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 1,
+            "multiplier": 0.5,
+            "sensorName": "DBW TRGT",
+            "maximumValue": 100,
+            "minimumValue": 0
+          },
+          {
+            "offset": 0,
+            "signed": true,
+            "byteWidth": 2,
+            "byteOffset": 2,
+            "multiplier": 1,
+            "sensorName": "TC DRPM RAW",
+            "maximumValue": 1000,
+            "minimumValue": 0
+          },
+          {
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 2,
+            "byteOffset": 4,
+            "multiplier": 1,
+            "sensorName": "TC DRPM",
+            "maximumValue": 400,
+            "minimumValue": 0
+          },
+          {
+            "unit": "%",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 6,
+            "multiplier": 1,
+            "sensorName": "TC TORQUE REDUCTION",
+            "maximumValue": 100,
+            "minimumValue": 0
+          },
+          {
+            "unit": "%",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 7,
+            "multiplier": 1,
+            "sensorName": "PIT LIMIT TORQUE REDUCTION",
+            "maximumValue": 100,
+            "minimumValue": 0
+          }
+        ]
+      },
+      {
+        "canId": "1542",
+        "sensorConfigList": [
+          {
+            "unit": "V",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 2,
+            "byteOffset": 0,
+            "multiplier": 0.0048828125,
+            "sensorName": "AIN #5",
+            "maximumValue": 5,
+            "minimumValue": 0
+          },
+          {
+            "unit": "V",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 2,
+            "byteOffset": 2,
+            "multiplier": 0.0048828125,
+            "sensorName": "AIN #6",
+            "maximumValue": 5,
+            "minimumValue": 0
+          }
+        ]
+      },
+      {
+        "canId": "1543",
+        "sensorConfigList": [
+          {
+            "unit": "kPa",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 2,
+            "byteOffset": 0,
+            "multiplier": 1,
+            "sensorName": "Boost target",
+            "maximumValue": 600,
+            "minimumValue": 0
+          },
+          {
+            "unit": "%",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 1,
+            "multiplier": 1,
+            "sensorName": "PWM#1 DC",
+            "maximumValue": 100,
+            "minimumValue": 0
+          }
+        ]
+      },
+      {
+        "canId": "1280",
+        "sensorConfigList": [
+          {
+            "unit": "C",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 0,
+            "multiplier": 1,
+            "sensorName": "DiffTemp",
+            "maximumValue": 255,
+            "minimumValue": 0
+          },
+          {
+            "unit": "km/h",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 1,
+            "multiplier": 1,
+            "sensorName": "Speed",
+            "maximumValue": 255,
+            "minimumValue": 0
+          },
+          {
+            "unit": "Bar",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 2,
+            "multiplier": 1,
+            "sensorName": "Brakepress_F",
+            "maximumValue": 255,
+            "minimumValue": 0
+          },
+          {
+            "unit": "Bar",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 3,
+            "multiplier": 1,
+            "sensorName": "Brakepress_R",
+            "maximumValue": 255,
+            "minimumValue": 0
+          },
+          {
+            "unit": "No units",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 4,
+            "multiplier": 1,
+            "sensorName": "DiffPump",
+            "maximumValue": 255,
+            "minimumValue": 0
+          },
+          {
+            "unit": "%",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 5,
+            "multiplier": 1,
+            "sensorName": "FuelLevel",
+            "maximumValue": 255,
+            "minimumValue": 0
+          },
+          {
+            "unit": "L",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 6,
+            "multiplier": 1,
+            "sensorName": "FuelUsed",
+            "maximumValue": 255,
+            "minimumValue": 0
+          },
+          {
+            "unit": "C",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 7,
+            "multiplier": 1,
+            "sensorName": "GbxTemp",
+            "maximumValue": 255,
+            "minimumValue": 0
+          }
+        ]
+      },
+      {
+        "canId": "1024",
+        "sensorConfigList": [
+          {
+            "unit": "",
+            "offset": 0,
+            "signed": true,
+            "byteWidth": 4,
+            "byteOffset": 0,
+            "multiplier": 1e-7,
+            "sensorName": "Latitude",
+            "maximumValue": 90,
+            "minimumValue": -90
+          },
+          {
+            "unit": "",
+            "offset": 0,
+            "signed": true,
+            "byteWidth": 4,
+            "byteOffset": 4,
+            "multiplier": 1e-7,
+            "sensorName": "Longitude",
+            "maximumValue": 180,
+            "minimumValue": -180
+          }
+        ]
+      }
+    ]
+  }

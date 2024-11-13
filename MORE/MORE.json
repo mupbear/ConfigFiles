@@ -1,0 +1,114 @@
+{
+    "id": 2,
+    "carName": "MORE",
+    "canIdConfigList": [
+      {
+        "canId": "0",
+        "sensorConfigList": [
+          {
+            "unit": "Deg",
+            "offset": -6,
+            "signed": true,
+            "byteWidth": 2,
+            "byteOffset": 1,
+            "multiplier": 0.00619449,
+            "sensorName": "LEFT",
+            "maximumValue": 32767,
+            "minimumValue": -32767
+          }
+        ]
+      },
+      {
+        "canId": "384",
+        "sensorConfigList": [
+          {
+            "unit": "Deg",
+            "offset": 175,
+            "signed": true,
+            "byteWidth": 2,
+            "byteOffset": 0,
+            "multiplier": 0.0637,
+            "sensorName": "STEER",
+            "maximumValue": 32767,
+            "minimumValue": -32767
+          }
+        ]
+      },
+      {
+        "canId": "217128453",
+        "sensorConfigList": [
+          {
+            "unit": "RPM",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 2,
+            "byteOffset": 0,
+            "multiplier": 1,
+            "sensorName": "RPM",
+            "maximumValue": 6000,
+            "minimumValue": 0
+          },
+          {
+            "unit": "A",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 2,
+            "byteOffset": 2,
+            "multiplier": 0.1,
+            "sensorName": "MOTOR_CURR",
+            "maximumValue": 4000,
+            "minimumValue": 0
+          },
+          {
+            "unit": "A",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 2,
+            "byteOffset": 4,
+            "multiplier": 0.1,
+            "sensorName": "BATTV",
+            "maximumValue": 1800,
+            "minimumValue": 0
+          }
+        ]
+      },
+      {
+        "canId": "217128709",
+        "sensorConfigList": [
+          {
+            "unit": "V",
+            "offset": 0,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 0,
+            "multiplier": 1,
+            "sensorName": "THRO_SIG",
+            "maximumValue": 255,
+            "minimumValue": 0
+          },
+          {
+            "unit": "C",
+            "offset": -40,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 1,
+            "multiplier": 1,
+            "sensorName": "CONTR_TEMP",
+            "maximumValue": 1000,
+            "minimumValue": 0
+          },
+          {
+            "unit": "C",
+            "offset": -30,
+            "signed": false,
+            "byteWidth": 1,
+            "byteOffset": 2,
+            "multiplier": 1,
+            "sensorName": "MOTOR_TEMP",
+            "maximumValue": 1000,
+            "minimumValue": 0
+          }
+        ]
+      }
+    ]
+  }
